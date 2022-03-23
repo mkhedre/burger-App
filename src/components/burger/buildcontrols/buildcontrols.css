@@ -1,0 +1,6 @@
+.Builldcontrol {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+}
