@@ -7,15 +7,15 @@ const BuildControl = (props) => {
   const dispatch = useDispatch();
   return (
     <div className='BuildControl'>
-      <p className='label'>{props.label}</p>
+      <p className='Label'>{props.label}</p>
       <button
-        className='less'
+        className='Less'
         onClick={() => dispatch(deleteSlice(props.type))}
         disabled={props.disable}
       >
         Less
       </button>
-      <button className='more' onClick={() => dispatch(addslice(props.type))}>
+      <button className='More' onClick={() => dispatch(addslice(props.type))}>
         more
       </button>
     </div>

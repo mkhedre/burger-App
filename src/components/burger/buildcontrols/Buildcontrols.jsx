@@ -7,10 +7,11 @@ const Buildcontrol = () => {
   const controls = useSelector((state) => state.burger.controls);
 
   return (
-    <div className='Builldcontrol'>
+    <div className='BuildControls'>
       {controls.map((ctr) => (
         <BuildControl key={ctr.label} label={ctr.label} type={ctr.type} />
       ))}
+      <button className='OrderButton'>order</button>
     </div>
   );
 };
