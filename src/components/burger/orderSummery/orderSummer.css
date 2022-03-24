@@ -1,0 +1,21 @@
+.ordersummery {
+  padding: 15px;
+  text-align: center;
+}
+.ordersummery h3 {
+  font-size: 25px;
+}
+.ordersummery p {
+  color: #777;
+  line-height: 1.5;
+}
+.ordersummery ul {
+  color: #777;
+}
+.ordersummery ul li {
+  padding: 5px;
+  margin-right: 5px;
+}
+.ordersummery ul li span {
+  text-transform: capitalize;
+}
