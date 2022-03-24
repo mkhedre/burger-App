@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import "./burger.css";
 import Buildcontrols from "./buildcontrols/Buildcontrols";
 import BurIngrediant from "./burgerIngrediant/BurIngrediant";
 const Burger = () => {
