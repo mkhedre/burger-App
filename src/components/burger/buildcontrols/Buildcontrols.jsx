@@ -3,6 +3,7 @@ import "./buildcontrols.css";
 import { useSelector } from "react-redux";
 import BuildControl from "./buildControl/BuildControl";
 import Modal from "react-modal";
+import OrderSammary from "../orderSummery/OrderSammary";
 const customStyles = {
   content: {
     top: "50%",
@@ -45,31 +46,8 @@ const Buildcontrol = () => {
             <span aria-hidden='true'>&times;</span>
           </button>
         </div>
-        <ul className='content'>
-          <li>
-            Tomato Soup <span>$2.26</span>
-          </li>
-          <li>
-            chicken salad <span>$3.26</span>
-          </li>
-          <li>
-            bread and butter <span>$1.26</span>
-          </li>
-        </ul>
-        <div>
-          <h1 className='main'>main courses</h1>
-          <ul className='content'>
-            <li>
-              Tomato Soup <span>$2.26</span>
-            </li>
-            <li>
-              chicken salad <span>$3.26</span>
-            </li>
-            <li>
-              bread and butter <span>$1.26</span>
-            </li>
-          </ul>
-        </div>
+
+        <OrderSammary />
       </Modal>
     </div>
   );
